@@ -53,12 +53,12 @@ var student = {
   coCurricularActivities: undefined,
 };
 
-// student['name']
+student['name']
 
-// for (element in student) {
-//     var result = student[element]
-//   console.log(result);
-// }
+for (element in student) {
+    var result = student[element]
+  console.log(result);
+}
 
 
 //------------- for off loop ---------------\\
@@ -80,29 +80,29 @@ syntax:
 
 */
 
-// var person = ['John', 18, {address:"something", postcode: 23}, ['Reading']]
+var person = ['John', 18, {address:"something", postcode: 23}, ['Reading']]
 
-// for(item of person) {
-//     console.log(item)
-// }
+for(item of person) {
+    console.log(item)
+}
 
-// console.log(typeof person)
+console.log(typeof person)
 
 
 //--------------While loop--------------\\
 
-// let num = 1
+let num = 1
 
-// while (num <= 10){
-//     console.log(num)
-//     num++
-// }
+while (num <= 10){
+    console.log(num)
+    num++
+}
 
 //--------------Do while loop--------------\\
 
 
 
-let num = 11
+// let num = 11
 
 do{
     console.log(num)
